@@ -26,3 +26,10 @@ If you are into this kind of thing, this is 7th in a series of these puzzles.
 * https://github.com/srush/transformer-puzzles
 * https://github.com/srush/GPTworld
 * https://github.com/srush/LLM-Training-Puzzles
+
+# My Notes
+I think I can still improve the last puzzle, because I load the entire 64 rows. I think loading all of the 64 rows isn't necessary and instead I can do something like in the previous puzzle where I am doing dot product step-by-step. 
+
+Also, the matmul one still didn't accept dynamic shapes. I think I can try to implement that as well.
+
+By the way, some of the puzzles have two or more cells. Which is my attempt on solving the puzzle but the parallel dimension is wrong. I kept in there because I like on my process thought and probably it'll be useful to learn that pattern.
